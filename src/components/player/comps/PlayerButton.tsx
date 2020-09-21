@@ -8,7 +8,7 @@ const PlayerButton: React.FC<PlayerButtonProps> = ({
   children,
   ...restProps
 }) => {
-  const { showPlayer, setShowPlayer } = useContext(PlayerContext);
+  const { setShowPlayer } = useContext(PlayerContext);
 
   return (
     <Button
